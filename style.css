@@ -1,0 +1,323 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box !important; 
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+  height: 120px;
+}
+.h-70{
+  height: 70%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:"Merriweather", sans-serif;
+}
+.fn{
+  font-family:'Merriweather', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+body{
+  font-family: 'Hind', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.fm{
+  font-family:"Merriweather Sans", sans-serif;
+}
+.color{
+  color: #254151;
+}
+.navbar-scrolled {
+  background-color: #223139; 
+  margin-top: -1%;
+  transition: all 0.8s ease-in;
+}
+.nav-link:hover,.nav-item:hover{
+  color:goldenrod;
+}
+.fixed-top{
+  position: fixed !important;
+}
+.w-30{
+  width: 35% !important;
+} 
+.nav-item a {
+  color: white;
+  font-weight: 500;
+}
+.carousel-indicators [data-bs-target] {
+  height: 20px !important;
+  margin-top: 10px !important;
+}
+.fs{
+  font-size: 65px;
+}
+.db{
+  border: 3px solid;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+.btn-outline-light{
+  border: 2px solid;
+}
+.bg-color{
+  background-color: #CFAD3E;
+}
+.fs1{
+  font-size: 2.8rem;
+}
+.w-10{
+  width: 15% !important;
+}
+.ico{
+  height: 30px;
+  width: 30px;
+}
+.con{
+  width: 40%;
+  height: 90px;
+}
+.bg-col{
+  background-color: #FDFBF8;
+}
+.card-img-top{
+  border-radius: 0 !important;
+}
+.pow{
+  height: 700px;
+}
+.bgi{
+  background: url(images/panda.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+.fw-bolder{
+  font-weight: 800 !important;
+}
+.w-40{
+  width: 45% !important;
+}
+.third-sec,footer{
+  background-color: #ECE7DF;
+}
+.img2{
+  height: 60px;
+  width: 60px;
+}
+.btn-outline-warning{
+  border-width: medium;
+}
+.color1{
+  color: rgb(223, 171, 2);
+}
+.link{
+  text-decoration: none;
+}
+.w-70{
+  width: 70% !important;
+}
+.w-55{
+  width: 55% !important;
+}
+.w-80{
+  width: 90% !important;
+}
+.fourth-sec{
+  background-image: url(images/fourth.jpg);
+  background-size: cover;
+  height: 450px;
+}
+.bg-5{
+  background-image: url(images/4-1.jpg);
+  background-size: 100% 100%;
+}
+.slide1{
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.fifth-sec{
+  height: 700px;
+  margin: 0 !important;
+  padding: 0 !important;
+  
+}
+.card{
+  border: none;
+}
+.progress{
+  height: 3px !important;
+}
+.progress-bar{
+  background-color: rgb(247, 190, 5);
+}
+.sixth-sec{
+  background-image: url(images/6-1.jpg);
+  background-size: cover;
+}
+.img-6{
+  height: 250px;
+  width: 250px;
+}
+.img-6:hover{
+  cursor: pointer;
+  transform-origin: center;
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in-out;
+}
+.content-6 h2:hover{
+  cursor: pointer;
+  color:rgb(247, 190, 5) ;
+}
+.circular-progress {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: conic-gradient(rgb(247, 190, 5) calc(var(--percentage) * 1%), #CC4D39 0);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  background-color: #CC4D39;
+  border-radius: 50%;
+}
+.circular-progress span {
+  position: absolute;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+.puzz-11{
+  background:rgba(247, 193, 18, 0.9) ;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.puzz-11:hover{
+  cursor: pointer;
+  opacity: 1;
+  transition:all 0.5s ease-in ;
+}
+.puzz-1{
+  background-image: url(images/1-puzzle.jpg);
+  background-size: cover;
+}
+.puzz-2{
+  background-image: url(images/2-puzzle.jpg);
+  background-size: cover;
+}
+.puzz-3{
+  background-image: url(images/4-puzzle.jpg);
+  background-size: cover;
+}
+.puzz-4{
+  background-image: url(images/5-puzzle.jpg);
+  background-size: cover;
+}
+.puzz-5{
+  background-image: url(images/3-puzzle.jpg);
+  background-size: cover;
+}
+ul{
+  list-style: none;
+}
+.link a{
+  text-decoration: none;
+}
+.fs-7{
+   font-size: 14px;
+}
+.pb-7{
+  padding-bottom: 6%;
+  padding-top: 4%;
+}
+@media (min-width:1500px){
+  .fifth-sec{
+    height: 600px;
+  }
+}
+@media (min-width:992px){
+  .seventh-sec{
+    height: 700px;
+  }
+}
+@media (max-width:992px){
+  .navbar {
+    padding: 0 !important;
+  }
+  .w-55{
+    padding-bottom: 50px !important;
+    width: 65% !important;
+  }
+  .bgi{
+    height: 600px !important;
+    background-repeat: no-repeat;
+  }
+  .fs{
+    font-size: 30px;
+  }
+  #con{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  .puzz-11{
+    height: 250px;
+  }
+  .pow{
+    height: fit-content;
+    padding: 50px;
+  }
+  .fifth-sec{
+    height: auto;
+  }
+  
+}
+@media (max-width:576px){
+  .fs1{
+    font-size: 1.6rem;
+  }
+  .fs{
+    font-size: 1.4rem;
+  }
+  .fs-5{
+    font-size: 0.7rem;
+  }
+  .copy{
+    display: block !important;
+  }
+  .copy ul{
+    justify-content: flex-start !important;
+  }
+  .First-sec{
+    height: 400px !important;
+  }
+  .in{
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .carousel-indicators{
+    margin-left: 30px !important;
+  }
+  .navbar{
+    padding-top: 5px !important;
+    height: 70px !important;
+  }
+  .carousel-caption{
+    width: 45% !important;
+  }
+  .vid{
+    height: 60px;
+    width: 60px ;
+  }
+  
+}
